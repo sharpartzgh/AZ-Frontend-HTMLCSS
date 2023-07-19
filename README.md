@@ -1,8 +1,5 @@
-# Assignment: 
-    - HTML Fundamentals Introduction
+# This Repo Contains Frontend Developr - C4 class assignments given by 
+- [Azubi Africa](https://github.com/Azubi-Africa)
 
-## Task: Introducing the basics of HTML.
-    - Create an HTML file that showcases your knowledge of HTML document structure, tags and elements, text formatting, and linking.
-
-
-
+## Author
+- [Frederick Asiamah](https://github.com/sharpartzgh)
