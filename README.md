@@ -1,4 +1,4 @@
-# This Repo Contains Frontend Developr - C4 class assignments given by 
+# This Repo Contains Frontend Developer - C4 class assignments given by 
 - [Azubi Africa](https://github.com/Azubi-Africa)
 
 ## Author
