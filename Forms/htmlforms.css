@@ -1,0 +1,25 @@
+
+html{
+    display: flex;
+    justify-content: center;
+    font-family: Candara, Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #020321;
+    color: #ffffff;    
+}
+h1{
+    font-size: 3rem;
+}
+div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 18px;
+}
+button{
+    background-color: white;
+    color: #020321;
+    border-radius: 10px;
+    border: 1px;
+}
+button:hover{
+    background-color: aqua;
+}

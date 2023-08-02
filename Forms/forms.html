@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms </title>
+    <link rel="stylesheet" href="htmlforms.css">
+</head>
+<body>
+   <h1>HTML FORMS</h1>
+    <hr>
+    <div>
+        <form action="" method="post">
+            <label for="name">Enter Your Name:</label> 
+            <br>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Enter Your Email:</label>
+            <br>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="age">Your Age:</label>
+            <br>
+            <input type="number" id="age" name="age" min="0" max="100" required>
+            <br>
+            <hr>
+            <label for="tel">Your Phone Number:</label>
+            <br>
+            <input type="tel" id="tel" name="phonenumber" pattern="[0-9]{10}" required>
+            <br>
+            <label for="DOB">Date Of Birth</label>
+            <br>
+            <input type="date" id="DOB" name="birthdate" required>
+            <br>
+            <label for="country">Your Country:</label>
+            <br>
+            <select name="country" id="country">
+                <option value="GH" selected>Ghana</option>
+                <option value="UK">Canada</option>
+                <option value="USA">United States </option>
+                <option value="SA">South Africa</option>
+                <option value="NG">Nigeria</option>
+                <option value="SK">South Korea</option>
+                <option value="MOR">Morocco</option>
+                <option value="ZAM">Zambia</option>
+                <option value="BEN">Benin</option>
+                <option value="TAN">Tanzania</option>
+            </select>
+            <br>
+            <hr>
+            <label for="gender">Gender</label> 
+            <br>
+            <input type="radio" name="gender" id="gender" value="male">Male 
+            <input type="radio" id="gender" name="gender" value="female" >Female
+            <input type="radio" id="gender" name="gender" value="Other">Other
+            <hr>
+           <label for="hobbies">Hobbies (Select More than 1):</label>
+           <br>
+           <input type="checkbox" name="hobbies"> Listening to Music
+           <br>
+           <input type="checkbox" name="hobbies"> Reading          
+           <br>
+           <input type="checkbox" name="hobbies"> Playing Soccer
+           <br>
+           <input type="checkbox" name="hobbies"> Watching Movies
+           <br>
+           <input type="checkbox" name="hobbies"> Playing Computer Games
+           <br>
+           <input type="checkbox" name="hobbies"> Swimming
+           <hr>
+           <label for="comment">Comment</label> 
+           <br>
+           <textarea name="comment" id="comment" cols="35" rows="10" placeholder="Add comment here!"></textarea>
+           <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <pre>&copy; 2023 <a href="https://www.github.com/sharpartzgh" target="_blank" style="text-decoration: none;">Frederick Asiamah</a> | <a href="https://www.azubiafrica.org" target="_blank" style="text-decoration: none;">Azubi Africa</a></pre> 
+     </footer>
+</body>
+</html>
