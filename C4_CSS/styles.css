@@ -1,0 +1,24 @@
+.header{
+    background-color: #0C1829;
+    color: #98C2ED;
+    padding: 3px;
+}
+ul{
+    border: 1px solid #0C1829;
+    padding: 10px;
+    color: #0C1829;
+    text-decoration: none;
+}
+li{
+    color: #ffff;
+    background-color: #0C1829;
+    font-weight: bold;
+    padding: 3px;
+}
+ul:hover{
+    color: #0c2e50;
+}
+li:hover{
+    background-color: #361c04;
+    color: #98C2ED;
+}
